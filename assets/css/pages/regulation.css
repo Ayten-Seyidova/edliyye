@@ -1,0 +1,36 @@
+.regulation-item {
+    border: 1px solid lightgray;
+    box-shadow: 0 0 10px 0 lightgray;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.pdf-link {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.pdf-link img {
+    display: inline-block;
+    width: 50px;
+}
+
+.pdf-link a {
+    color: #013D84;
+    transition: .3s all ease-in-out;
+}
+
+.pdf-link a:hover {
+    color: #3e9ab6;
+}
+
+@media only screen and (max-width: 576px) {
+    .pdf-link img {
+        width: 30px;
+    }
+
+    .pdf-link a {
+        font-size: 12px;
+    }
+}

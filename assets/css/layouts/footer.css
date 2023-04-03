@@ -1,0 +1,156 @@
+/* Footer */
+
+footer {
+  margin-top: 100px;
+  background-color: rgba(4, 64, 135, 0.85);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  padding: 80px 0 50px 0;
+  background-size: contain;
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-container {
+  padding: 0 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left-item {
+  margin-bottom: 13px;
+}
+
+.footer-list-item {
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  line-height: 32px;
+  text-transform: uppercase;
+  list-style: disc;
+}
+
+.footer-list-item-link {
+  font-family: 'Arial', sans-serif;
+  text-transform: uppercase;
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  transition: .3s all ease-in-out;
+}
+
+.footer-list-item-link:hover {
+  color: rgb(155, 191, 226);
+}
+
+.footer-link {
+  transition: .3s all ease-in-out;
+}
+
+.footer-link:hover {
+  color: rgb(155, 191, 226);
+}
+
+
+/* Copyright */
+
+.copyRight {
+  background: #044087;
+}
+
+.copyRight a {
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 16px 0;
+  transition: .3s all ease-in-out;
+}
+
+.copyRight a:hover {
+  color: rgb(155, 191, 226);
+}
+
+@media only screen and (max-width: 992px) {
+  footer {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  footer {
+    padding: 30px 0 10px 0;
+  }
+
+  .footer-container {
+    padding: 0 30px;
+  }
+
+  .footer-left-item {
+    margin-bottom: 10px;
+  }
+
+  .footer-list-item {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .footer-list-item-link {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  /* Copyright */
+  .copyRight a {
+    font-size: 12px;
+    padding: 16px 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    padding: 20px 0 10px 0;
+  }
+  
+  .footer-list-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .footer-list-item-link {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  
+  .copyRight a {
+    font-size: 10px;
+    padding: 12px 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .footer-list-item {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  
+  .footer-list-item-link {
+    font-size: 9px;
+    text-transform: none;
+    line-height: 14px;
+  }
+  
+  .copyRight a {
+    font-weight: 400;
+    line-height: 14px;
+    padding: 10px;
+  }
+}

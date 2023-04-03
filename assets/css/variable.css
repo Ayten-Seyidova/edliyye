@@ -1,0 +1,13 @@
+:root {
+    --body-family: "Open Sans", sans-serif;
+    --heading-family: "Roboto", sans-serif;
+    --main-color: #ff5e14;
+    --body-color: #555555;
+    --heading-color: #040f28;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --font-size: 16px;
+    --transition: all ease 0.5s;
+    --border-radius: 4px;
+    --box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  }

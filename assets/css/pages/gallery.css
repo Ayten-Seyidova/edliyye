@@ -1,0 +1,12 @@
+.photo-page img{
+    display: block;
+    width: 200px;
+    height: 140px;
+    box-shadow: 0 0 10px 0 gray;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.pp_social {
+    display: none;
+}
